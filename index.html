@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Solid</title>
+
+    <!---------------------------------------------------------------------------->
+    <!-- all CDN stylesheets goes here -->
+
+    <!-- animate.css start here-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- animate.css end-->
+    <!-- font woasome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
+    <!-- aos.css start here -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <!-- aos.css end -->
+
+    <!-- bootstrap.css 4.6.0 start here-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    />
+    <!-- bootstrap.css 4.6.0 end -->
+
+    <!-- end of cdn -->
+    <!---------------------------------------------------------------------------->
+
+    <!---------------------------------------------------------------------------->
+    <!-- all local stylesheets goes here -->
+
+    <!-- root css start here-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- root css end -->
+
+    <!-- all local stylesheets end -->
+    <!---------------------------------------------------------------------------->
+  </head>
+  <body>
+    <!-- header part start -->
+    <div class="header_wrapper sticky-top">
+      <div class="containerr">
+        <header class="header">
+          <div class="logo_wrapper">
+            <h1 class="h1">SOLID.</h1>
+          </div>
+          <div class="menu">
+            <div class="humbergerr" onclick="toggleMenu()">
+              <i class="fa fa-bars d-none"></i>
+            </div>
+            <ul id="scrollspy" class="menu_ul">
+              <li class="menu_li">
+                <a href="#Home" class="menu_link active">Home</a>
+              </li>
+              <li class="menu_li">
+                <a href="#Services" class="menu_link">Services</a>
+              </li>
+              <li class="menu_li">
+                <a href="#Portfolio" class="menu_link">Portfolio</a>
+              </li>
+              <li class="menu_li">
+                <a href="#Testimony" class="menu_link">Testimony</a>
+              </li>
+              <li class="menu_li">
+                <a href="#Pricing" class="menu_link">Pricing</a>
+              </li>
+              <li class="menu_li">
+                <a href="#Blog" class="menu_link">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </header>
+      </div>
+    </div>
+    <!-- header part end -->
+
+    <!-- hero section start -->
+    <div class="hero_section_wrapper" id="Home">
+      <div class="containerr">
+        <h1
+          class="hero_heading display-3 text-white wow animate__animated animate__fadeInUp animate__fast"
+        >
+          Creativity
+        </h1>
+        <p class="lead wow animate__animated animate__fadeInUp animate__fast">
+          REQUIRES THE
+        </p>
+        <h4
+          class="hero_sub_heading_1 text-white wow animate__animated animate__fadeInUp animate__fast"
+        >
+          Courage
+        </h4>
+        <p class="lead wow animate__animated animate__fadeInUp animate__fast">
+          TO LET GO OF
+        </p>
+        <h4
+          class="hero_sub_heading_2 text-white wow animate__animated animate__fadeInUp animate__fast"
+        >
+          Certainties.
+        </h4>
+        <p class="lead wow animate__animated animate__fadeInUp animate__fast">
+          Crafted with love by
+          <a href="#" class="hero_section_reffer_ink">FREEHTML5.co</a>
+        </p>
+        <button
+          class="hero_section_button btn_1 wow animate__animated animate__fadeInUp animate__fast"
+        >
+          <i class="fa fa-power-off hero_section_button_i"></i>
+          Demo
+        </button>
+        <button
+          class="hero_section_button btn_2 wow animate__animated animate__fadeInUp animate__fast"
+        >
+          <i class="fa fa-download hero_section_button_i"></i>
+          Download
+        </button>
+      </div>
+    </div>
+    <!-- hero section end -->
+
+    <!-- service section start -->
+    <div class="service_section_wraperr" id="Services">
+      <div class="container service_section_wraper">
+        <div
+          class="service_section_box wow animate__animated animate__fadeInUp animate__fast"
+        >
+          <div class="service_section_box_i">
+            <i class="fa fa-vial fa-3x"></i>
+          </div>
+          <h4 class="service_section_box_h4">Hand-crafted with Detailed</h4>
+          <p class="service_section_box_para">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div
+          class="service_section_box wow animate__animated animate__fadeInUp animate__slow"
+        >
+          <div class="service_section_box_i">
+            <i class="fa fa-trophy fa-3x"></i>
+          </div>
+          <h4 class="service_section_box_h4">Hand-crafted with Detailed</h4>
+          <p class="service_section_box_para">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div
+          class="service_section_box wow animate__animated animate__fadeInUp animate__slower"
+        >
+          <div class="service_section_box_i">
+            <i class="fa fa-user fa-3x"></i>
+          </div>
+          <h4 class="service_section_box_h4">Hand-crafted with Detailed</h4>
+          <p class="service_section_box_para">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div
+          class="service_section_box wow animate__animated animate__fadeInUp animate__fast"
+        >
+          <div class="service_section_box_i">
+            <i class="fa fa-vial fa-3x"></i>
+          </div>
+          <h4 class="service_section_box_h4">Hand-crafted with Detailed</h4>
+          <p class="service_section_box_para">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div
+          class="service_section_box wow animate__animated animate__fadeInUp animate__slow"
+        >
+          <div class="service_section_box_i">
+            <i class="fa fa-trophy fa-3x"></i>
+          </div>
+          <h4 class="service_section_box_h4">Hand-crafted with Detailed</h4>
+          <p class="service_section_box_para">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+        <div
+          class="service_section_box wow animate__animated animate__fadeInUp animate__slower"
+        >
+          <div class="service_section_box_i">
+            <i class="fa fa-users fa-3x"></i>
+          </div>
+          <h4 class="service_section_box_h4">Hand-crafted with Detailed</h4>
+          <p class="service_section_box_para">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- service section end -->
+
+    <!-- portfolio section start -->
+    <div class="portfolio_section" id="Portfolio">
+      <div
+        class="portfolio_section_header wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <h1 class="h1">Finished Work</h1>
+        <p class="portfolio_section_heading_para">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+      </div>
+
+      <div
+        class="portfolio_section_box wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <div class="overlay"></div>
+        <p
+          class="portfolio_section_box_hidden_para animate__animated animate__fadeIn animate__faster"
+        >
+          Solid Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img
+          src="img/portfolio-1.jpg"
+          alt=""
+          class="portfolio_section_box_img"
+        />
+        <h4 class="h4">Solid</h4>
+        <div class="portfolio_section_box_img_info">
+          <i class="fa fa-download"></i>
+          <p class="portfolio_section_box_img_info_p_1">200</p>
+          <i class="fa fa-eye"></i>
+          <p class="portfolio_section_box_img_info_p_1">200</p>
+          <i class="fa fa-heart"></i>
+          <p class="portfolio_section_box_img_info_p_1">200</p>
+        </div>
+      </div>
+      <div
+        class="portfolio_section_box wow animate__animated animate__fadeInUp animate__slow"
+      >
+        <div class="overlay"></div>
+        <p
+          class="portfolio_section_box_hidden_para animate__animated animate__fadeIn animate__faster"
+        >
+          Solid Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img
+          src="img/portfolio-2.jpg"
+          alt=""
+          class="portfolio_section_box_img"
+        />
+        <h4 class="h4">Solid</h4>
+        <div class="portfolio_section_box_img_info">
+          <i class="fa fa-download"></i>
+          <p class="portfolio_section_box_img_info_p_1">200</p>
+          <i class="fa fa-eye"></i>
+          <p class="portfolio_section_box_img_info_p_1">248</p>
+          <i class="fa fa-heart"></i>
+          <p class="portfolio_section_box_img_info_p_1">240</p>
+        </div>
+      </div>
+      <div
+        class="portfolio_section_box wow animate__animated animate__fadeInUp animate__slower"
+      >
+        <div class="overlay"></div>
+        <p
+          class="portfolio_section_box_hidden_para animate__animated animate__fadeIn animate__faster"
+        >
+          Solid Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img
+          src="img/portfolio-3.jpg"
+          alt=""
+          class="portfolio_section_box_img"
+        />
+        <h4 class="h4">Solid</h4>
+        <div class="portfolio_section_box_img_info">
+          <i class="fa fa-download"></i>
+          <p class="portfolio_section_box_img_info_p_1">200</p>
+          <i class="fa fa-eye"></i>
+          <p class="portfolio_section_box_img_info_p_1">248</p>
+          <i class="fa fa-heart"></i>
+          <p class="portfolio_section_box_img_info_p_1">240</p>
+        </div>
+      </div>
+      <div
+        class="portfolio_section_box wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <div class="overlay"></div>
+        <p
+          class="portfolio_section_box_hidden_para animate__animated animate__fadeIn animate__faster"
+        >
+          Solid Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img
+          src="img/portfolio-4.jpg"
+          alt=""
+          class="portfolio_section_box_img"
+        />
+        <h4 class="h4">Solid</h4>
+        <div class="portfolio_section_box_img_info">
+          <i class="fa fa-download"></i>
+          <p class="portfolio_section_box_img_info_p_1">200</p>
+          <i class="fa fa-eye"></i>
+          <p class="portfolio_section_box_img_info_p_1">248</p>
+          <i class="fa fa-heart"></i>
+          <p class="portfolio_section_box_img_info_p_1">240</p>
+        </div>
+      </div>
+      <div
+        class="portfolio_section_box wow animate__animated animate__fadeInUp animate__slow"
+      >
+        <div class="overlay"></div>
+        <p
+          class="portfolio_section_box_hidden_para animate__animated animate__fadeIn animate__faster"
+        >
+          Solid Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img
+          src="img/portfolio-5.jpg"
+          alt=""
+          class="portfolio_section_box_img"
+        />
+        <h4 class="h4">Solid</h4>
+        <div class="portfolio_section_box_img_info">
+          <i class="fa fa-download"></i>
+          <p class="portfolio_section_box_img_info_p_1">200</p>
+          <i class="fa fa-eye"></i>
+          <p class="portfolio_section_box_img_info_p_1">248</p>
+          <i class="fa fa-heart"></i>
+          <p class="portfolio_section_box_img_info_p_1">240</p>
+        </div>
+      </div>
+      <div
+        class="portfolio_section_box wow animate__animated animate__fadeInUp animate__slower"
+      >
+        <div class="overlay"></div>
+        <p
+          class="portfolio_section_box_hidden_para animate__animated animate__fadeIn animate__faster"
+        >
+          Solid Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img
+          src="img/portfolio-6.jpg"
+          alt=""
+          class="portfolio_section_box_img"
+        />
+        <h4 class="h4">Solid</h4>
+        <div class="portfolio_section_box_img_info">
+          <i class="fa fa-download"></i>
+          <p class="portfolio_section_box_img_info_p_1">200</p>
+          <i class="fa fa-eye"></i>
+          <p class="portfolio_section_box_img_info_p_1">248</p>
+          <i class="fa fa-heart"></i>
+          <p class="portfolio_section_box_img_info_p_1">240</p>
+        </div>
+      </div>
+
+      <p
+        class="portfolio_section_box_img_info_bottom_para wow animate__animated animate__fadeInUp animate__fast"
+      >
+        Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia, there live the blind texts.
+      </p>
+
+      <!-- counter start -->
+      <div
+        class="counter_wrapper wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <div class="counter_number">
+          <h3 class="h3 count_number_1">00</h3>
+          <p class="counter_number_p">Cups of Coffee</p>
+        </div>
+        <div class="counter_number">
+          <h3 class="h3 count_number_2">00</h3>
+          <p class="counter_number_p">Clients</p>
+        </div>
+        <div class="counter_number">
+          <h3 class="h3 count_number_3">00</h3>
+          <p class="counter_number_p">Projects</p>
+        </div>
+        <div class="counter_number">
+          <h3 class="h3 count_number_4">00</h3>
+          <p class="counter_number_p">Finished Projects</p>
+        </div>
+      </div>
+      <!-- counter end -->
+    </div>
+    <!-- portfolio section end -->
+
+    <!-- testimony start -->
+    <div class="testimony_wrapper" id="Testimony">
+      <h3 class="h3">Our Happy Clients</h3>
+      <div
+        class="testimony_wrapper_box wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <p class="testimony_wrapper_box_tooltip">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Vokalia and
+          Consonantia, there live the blind texts. Consonantia, there live the
+          blind texts. Vokalia and Consonantia, there live the blind texts. live
+          the blind texts. live the blind texts. Consonantia, there live the
+          blind texts. Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <div class="position-relative">
+          <img src="img/user-2.jpg" alt="" class="testimony_wrapper_box_img" />
+          <h5 class="testimony_wrapper_box_h5">Randy White</h5>
+          <p class="testimony_wrapper_box_img_para">Bloger, Analyst</p>
+          <div class="toltip_arrow"></div>
+        </div>
+      </div>
+      <div
+        class="testimony_wrapper_box wow animate__animated animate__fadeInUp animate__slow"
+      >
+        <p class="testimony_wrapper_box_tooltip">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Vokalia and
+          Consonantia, there live the blind texts. Consonantia, there live the
+          blind texts. Vokalia and Consonantia, there texts. Vokalia and
+          Consonantia, there live the blind texts.
+        </p>
+        <div class="position-relative">
+          <img src="img/user-3.jpg" alt="" class="testimony_wrapper_box_img" />
+          <h5 class="testimony_wrapper_box_h5">Randy White</h5>
+          <p class="testimony_wrapper_box_img_para">Bloger, Analyst</p>
+          <div class="toltip_arrow"></div>
+        </div>
+      </div>
+      <div
+        class="testimony_wrapper_box wow animate__animated animate__fadeInUp animate__slower"
+      >
+        <p class="testimony_wrapper_box_tooltip">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Vokalia and
+          Consonantia, there live the blind texts. Far far away, behind the word
+          mountains, far from the countries Vokalia and Consonantia, there live
+          the blind texts. Vokalia and Consonantia, there live the blind texts.
+          Far far away, behind
+        </p>
+        <div class="position-relative">
+          <img src="img/user-6.jpg" alt="" class="testimony_wrapper_box_img" />
+          <h5 class="testimony_wrapper_box_h5">Randy White</h5>
+          <p class="testimony_wrapper_box_img_para">Bloger, Analyst</p>
+          <div class="toltip_arrow"></div>
+        </div>
+      </div>
+      <div
+        class="testimony_wrapper_box wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <p class="testimony_wrapper_box_tooltip">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Vokalia and
+          Consonantia, there live the blind texts. Consonantia, there live the
+          blind texts. Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <div class="position-relative">
+          <img src="img/user-1.jpg" alt="" class="testimony_wrapper_box_img" />
+          <h5 class="testimony_wrapper_box_h5">Randy White</h5>
+          <p class="testimony_wrapper_box_img_para">Bloger, Analyst</p>
+          <div class="toltip_arrow"></div>
+        </div>
+      </div>
+      <div
+        class="testimony_wrapper_box wow animate__animated animate__fadeInUp animate__slow"
+      >
+        <p class="testimony_wrapper_box_tooltip">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Vokalia and
+          Consonantia, there live the blind texts.
+        </p>
+        <div class="position-relative">
+          <img src="img/user-2.jpg" alt="" class="testimony_wrapper_box_img" />
+          <h5 class="testimony_wrapper_box_h5">Randy White</h5>
+          <p class="testimony_wrapper_box_img_para">Bloger, Analyst</p>
+          <div class="toltip_arrow"></div>
+        </div>
+      </div>
+      <div
+        class="testimony_wrapper_box wow animate__animated animate__fadeInUp animate__slower"
+      >
+        <p class="testimony_wrapper_box_tooltip">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Far far away, behind the word mountains, far from the
+          countries Vokalia and Far far away, behind the word mountains, far
+          from the countries Vokalia and live the blind texts. live the blind
+          texts. live the blind texts. Consonantia, there live the blind texts.
+          Vokalia and Consonantia, there
+        </p>
+        <div class="position-relative">
+          <img src="img/user-3.jpg" alt="" class="testimony_wrapper_box_img" />
+          <h5 class="testimony_wrapper_box_h5">Randy White</h5>
+          <p class="testimony_wrapper_box_img_para">Bloger, Analyst</p>
+          <div class="toltip_arrow"></div>
+        </div>
+      </div>
+      <div
+        class="testimony_wrapper_box wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <p class="testimony_wrapper_box_tooltip">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Far far away, behind the word mountains, far from the
+          countries Vokalia and Far far away, behind the word mountains, far
+          from the countries Vokalia and Far far away, behind the word
+          mountains, far from the countries Vokalia and Consonantia, there live
+          the blind texts. Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <div class="position-relative">
+          <img src="img/user-4.jpg" alt="" class="testimony_wrapper_box_img" />
+          <h5 class="testimony_wrapper_box_h5">Randy White</h5>
+          <p class="testimony_wrapper_box_img_para">Bloger, Analyst</p>
+          <div class="toltip_arrow"></div>
+        </div>
+      </div>
+      <div
+        class="testimony_wrapper_box wow animate__animated animate__fadeInUp animate__slow"
+      >
+        <p class="testimony_wrapper_box_tooltip">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Vokalia and
+          Consonantia, there live the blind texts. Consonantia, there live the
+          blind texts. Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <div class="position-relative">
+          <img src="img/user-5.jpg" alt="" class="testimony_wrapper_box_img" />
+          <h5 class="testimony_wrapper_box_h5">Randy White</h5>
+          <p class="testimony_wrapper_box_img_para">Bloger, Analyst</p>
+          <div class="toltip_arrow"></div>
+        </div>
+      </div>
+      <div
+        class="testimony_wrapper_box wow animate__animated animate__fadeInUp animate__slower"
+      >
+        <p class="testimony_wrapper_box_tooltip">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Vokalia and
+          Consonantia, there live the blind texts. Far far away, behind the word
+          mountains, far from the countries Vokalia and Consonantia, there live
+          the blind texts. Vokalia and Consonantia, there live the blind texts.
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Vokalia and
+          Consonantia, there live the blind texts.
+        </p>
+        <div class="position-relative">
+          <img src="img/user-6.jpg" alt="" class="testimony_wrapper_box_img" />
+          <h5 class="testimony_wrapper_box_h5">Randy White</h5>
+          <p class="testimony_wrapper_box_img_para">Bloger, Analyst</p>
+          <div class="toltip_arrow"></div>
+        </div>
+      </div>
+    </div>
+    <!-- testimony end -->
+
+    <!-- pricing start -->
+    <div class="pricing_wrapper container" id="Pricing">
+      <div
+        class="pricing_wrapper_header wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <h3 class="pricing_wrapper_h3">Pricing</h3>
+        <p class="pricing_wrapper_para">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+      </div>
+
+      <div
+        class="pricing_box wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <h4 class="pricing_box_heading">Startup</h4>
+        <div class="price_circle">
+          <p class="">$9.90</p>
+        </div>
+        <p class="price_info_para">Small business solution</p>
+        <p class="price_info_para">Unlimited calls</p>
+        <p class="price_info_para">Free hosting</p>
+        <p class="price_info_para">40MB of storage space</p>
+        <button class="pricing_wrapper_hidden_button">Read More</button>
+      </div>
+      <div
+        class="pricing_box wow animate__animated animate__fadeInUp animate__slow"
+      >
+        <h4 class="pricing_box_heading">Medium</h4>
+        <div class="price_circle">
+          <p class="">$29.90</p>
+        </div>
+        <p class="price_info_para">Medium business solution</p>
+        <p class="price_info_para">Unlimited calls</p>
+        <p class="price_info_para">Free hosting</p>
+        <p class="price_info_para">10 hours of support</p>
+        <p class="price_info_para">Social media integration</p>
+        <p class="price_info_para">1GB of storage space</p>
+        <button class="pricing_wrapper_hidden_button">Read More</button>
+      </div>
+      <div
+        class="pricing_box wow animate__animated animate__fadeInUp animate__slower"
+      >
+        <h4 class="pricing_box_heading">Large</h4>
+        <div class="price_circle">
+          <p class="">$59.90</p>
+        </div>
+        <p class="price_info_para">Gigantic business solution</p>
+        <p class="price_info_para">Unlimited calls</p>
+        <p class="price_info_para">Free hosting</p>
+        <p class="price_info_para">Unlimited hours of support</p>
+        <p class="price_info_para">Social media integration</p>
+        <p class="price_info_para">Anaylitcs integration</p>
+        <p class="price_info_para">Unlimited storage space</p>
+        <button class="pricing_wrapper_hidden_button">Read More</button>
+      </div>
+    </div>
+    <!-- pricing end -->
+
+    <!-- blog start -->
+    <div class="blog_wrapper container" id="Blog">
+      <div
+        class="blog_wrapper_heading wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <h3 class="blog_wrapper_h3">Read Our Blog</h3>
+        <p class="blog_wrapper_para">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts. Separated they
+          live in Bookmarksgrove.
+        </p>
+      </div>
+
+      <div
+        class="blog_box wow animate__animated animate__fadeInUp animate__faster"
+      >
+        <p
+          class="blog_box_hidden_para position-absolute animate__animated animate__fadeIn animate__faster"
+        >
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img src="img/blog-1.jpg" class="blog_img" alt="" />
+        <div class="blog_box_badge1 position-absolute">
+          <h3 class="blog_box_badge_date">03</h3>
+          <h4 class="blog_box_badge_date">MAR</h4>
+        </div>
+        <h4 class="blog_box_h4">Download Free HTML5 Template</h4>
+      </div>
+      <div
+        class="blog_box wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <p
+          class="blog_box_hidden_para position-absolute animate__animated animate__fadeIn animate__faster"
+        >
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img src="img/blog-2.jpg" class="blog_img" alt="" />
+        <div class="blog_box_badge2 position-absolute">
+          <h3 class="blog_box_badge_date">13</h3>
+          <h4 class="blog_box_badge_date">MAR</h4>
+        </div>
+        <h4 class="blog_box_h4">Download Free HTML5 Template</h4>
+      </div>
+      <div class="blog_box wow animate__animated animate__fadeInUp">
+        <p
+          class="blog_box_hidden_para position-absolute animate__animated animate__fadeIn animate__faster"
+        >
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img src="img/blog-3.jpg" class="blog_img" alt="" />
+        <div class="blog_box_badge3 position-absolute">
+          <h3 class="blog_box_badge_date">23</h3>
+          <h4 class="blog_box_badge_date">MAR</h4>
+        </div>
+        <h4 class="blog_box_h4">Download Free HTML5 Template</h4>
+      </div>
+      <div
+        class="blog_box wow animate__animated animate__fadeInUp animate__faster"
+      >
+        <p
+          class="blog_box_hidden_para position-absolute animate__animated animate__fadeIn animate__faster"
+        >
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img src="img/blog-2.jpg" class="blog_img" alt="" />
+        <div class="blog_box_badge4 position-absolute">
+          <h3 class="blog_box_badge_date">27</h3>
+          <h4 class="blog_box_badge_date">MAR</h4>
+        </div>
+        <h4 class="blog_box_h4">Download Free HTML5 Template</h4>
+      </div>
+      <div
+        class="blog_box wow animate__animated animate__fadeInUp animate__fast"
+      >
+        <p
+          class="blog_box_hidden_para position-absolute animate__animated animate__fadeIn animate__faster"
+        >
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img src="img/blog-1.jpg" class="blog_img" alt="" />
+        <div class="blog_box_badge5 position-absolute">
+          <h3 class="blog_box_badge_date">30</h3>
+          <h4 class="blog_box_badge_date">MAR</h4>
+        </div>
+        <h4 class="blog_box_h4">Download Free HTML5 Template</h4>
+      </div>
+      <div class="blog_box wow animate__animated animate__fadeInUp">
+        <p
+          class="blog_box_hidden_para position-absolute animate__animated animate__fadeIn animate__faster"
+        >
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <img src="img/blog-3.jpg" class="blog_img" alt="" />
+        <div class="blog_box_badge6 position-absolute">
+          <h3 class="blog_box_badge_date">01</h3>
+          <h4 class="blog_box_badge_date">APR</h4>
+        </div>
+        <h4 class="blog_box_h4">Download Free HTML5 Template</h4>
+      </div>
+    </div>
+    <!-- blog end -->
+
+    <!-- footer start -->
+    <div class="footer">
+      <div class="container">
+        <footer>
+          <div class="footer_1st_part">
+            <h3 class="footer_1st_part_h3">Solid.</h3>
+            <p class="footer_1st_part_para">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics.
+            </p>
+          </div>
+
+          <div class="footer_middle_part">
+            <h3 class="footer_middle_part_h3">Our Address</h3>
+            <i class="fas fa-map-signs"></i>
+            <p class="footer_middle_part_para1">
+              198 West 21th Street, Suite 721 New York NY 10016
+            </p>
+            <i class="fas fa-phone"></i>
+            <p class="footer_middle_part_para">+ 1235 2355 98</p>
+            <i class="fas fa-envelope"></i>
+            <p class="footer_middle_part_para">info@yoursite.com</p>
+            <i class="fas fa-globe"></i>
+            <p class="footer_middle_part_para">
+              <a href="#" class="">www.yoursite.com</a>
+            </p>
+
+            <div class="footer_middle_part_bootom_div">
+              <h3 class="footer_middle_part_bootom_div_h3">Connect with Us</h3>
+              <div class="social_shere_buttons">
+                <i class="fa-2x fa-colorr fab fa-facebook"></i>
+                <i class="fa-2x fa-colorr fab fa-twitter"></i>
+                <i class="fa-2x fa-colorr fab fa-instagram"></i>
+                <i class="fa-2x fa-colorr fab fa-viber"></i>
+                <i class="fa-2x fa-colorr fab fa-whatsapp"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="footer_right_part">
+            <h3 class="from_h3">Drop us a line</h3>
+            <form action="">
+              <input type="text" name="" id="" />
+              <input type="email" name="" id="" />
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+              <button type="submit" class="submit_footer">Send Messege</button>
+            </form>
+          </div>
+        </footer>
+
+        <!-- copyright section -->
+        <div class="copy_right">
+          <p class="copyright_info">
+            © 2015 Solid Free Template. All Rights Reserved.
+          </p>
+          <p class="copyright_info">
+            Designed by <a href="#" class="">FREEHTML5.co</a> Demo Images:
+            <a href="#" class="">Unsplash</a>
+          </p>
+          <p class="copyright_info">
+            I Used This Project For Only Learning Process And For Practice
+            process
+          </p>
+        </div>
+        <!-- copyright section end -->
+      </div>
+    </div>
+    <!-- footer end -->
+
+    <!---------------------------------------------------------------------------->
+    <!-- all CDN scripts goes here -->
+
+    <!-- jquery.js start here-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jquery.js end -->
+
+    <!-- popper.js for bootstrap start here-->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <!-- popper.js for btstrp-5.0 start here-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script> -->
+    <!-- popper.js end -->
+
+    <!-- bootstrap.js 4.6.0-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+    <!-- bootstrap.js 5.0-->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js"></script> -->
+    <!-- bootstrap.js end -->
+
+    <!-- wow js cdn start here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!-- wow js cdn end -->
+
+    <!-- aos cdn start here-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.0.2/aos.js"></script>
+    <!-- aos cdn end-->
+
+    <!-- all CDN scripts end-->
+    <!---------------------------------------------------------------------------->
+
+    <!---------------------------------------------------------------------------->
+    <!-- root script goes here -->
+    <!-- initialising aos.js and wow.js -->
+    <!-- wow js -->
+    <script>
+      new WOW().init();
+    </script>
+    <!-- aos -->
+    <script>
+      AOS.init();
+    </script>
+    <!-- initialising aos.js and wow.js done!! -->
+    <!-- scroll spy js init -->
+    <script src="js/scrollspy.js"></script>
+    <script>
+      $("#scrollspy").scrollspy({
+        activeClass: "active",
+        offset: -80,
+        duration: 1000,
+        animate: true,
+      });
+    </script>
+    <!-- scroll spy end -->
+    <script src="js/root.js"></script>
+    <!-- root script end -->
+    <!---------------------------------------------------------------------------->
+  </body>
+</html>
